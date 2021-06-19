@@ -1251,7 +1251,7 @@ components:
         Rules for selecting records based upon the field values those records contain. Filters are seperated by the logical AND operator.
       type: array
       items:
-       oneOf:
+       anyOf:
         - $ref: '#/components/schemas/OntologyFilter'
         - $ref: '#/components/schemas/AlphanumericFilter'
         - $ref: '#/components/schemas/CustomFilter'
