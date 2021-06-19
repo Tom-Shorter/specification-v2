@@ -1260,9 +1260,7 @@ components:
       description: |
         Filter results to include records that contain a specific ontology term.
       required:
-        - includeDescendantTerms
         - id
-        - similarity
       properties: 
         id:
           type: string
